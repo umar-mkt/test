@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import CountdownTimer from "./CountdownTimer";
+import Destructuring from "./Destructuring";
+import EventHandling from "./EventHandling";
+import Greeting from "./Greeting";
+import Mapping from "./Mapping";
+import Notification from "./Notification";
+import Parameters from "./Parameters";
+import Props from "./Props";
+import Shorthand from "./Shorthand";
+import Spread from "./Spread";
+import TemplateLiterals from "./TemplateLiterals";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <EventHandling />
+      </div>
     </div>
   );
 }
